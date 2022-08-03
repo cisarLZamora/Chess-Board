@@ -1,1 +1,5 @@
-console.log("lo que quiera")
+console.log("lo que quiera");
+
+function AAA(params) {
+    
+}
