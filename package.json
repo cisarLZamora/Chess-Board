@@ -1,0 +1,23 @@
+{
+  "name": "chess",
+  "version": "1.0.0",
+  "description": "Primer tablero ajedrez con node",
+  "main": "chess.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node chess.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cisarLZamora/Chess-Board.git"
+  },
+  "keywords": [
+    "ch"
+  ],
+  "author": "cisarLZamora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cisarLZamora/Chess-Board/issues"
+  },
+  "homepage": "https://github.com/cisarLZamora/Chess-Board#readme"
+}
