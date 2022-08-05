@@ -1,10 +1,23 @@
-console.log("lo que quiera");
-
-function AAA(params) {
-    
+/*
+funcion que tarde 5 segundos en dar una respuesta de cualquier tipo
+*/
+function calcular(num1, num2, callback,tiempo){
+    setTimeout(()=>{
+        callback(num1 + num2);
+    }, tiempo);
 }
 
-let numeros = [1, 2, 3, 4, 5];
-let total = numeros.reduce((a, b) => a + b, 0);
+function imprimir(num){
+    console.log(num)
+}
+calcular(3,2,imprimir,5000);
+/*
+funcion que tarde 10 segundos en dar una respuesta de cualquier tipo
+*/
+calcular(5,5, imprimir,10000);
+/*
+funcion que tarde 15 segundos en dar una respuesta de cualquier tipo
+*/
+calcular(10,5, imprimir,15000);
 
-console.log(total);
+console.log("lo que sea");
