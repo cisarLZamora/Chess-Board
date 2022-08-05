@@ -4,8 +4,8 @@
   "description": "Primer tablero ajedrez con node",
   "main": "chess.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node chess.js"
+    "start": "node chess.js",
+    "dev": "nodemon chess.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,10 @@
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.2.4",
-    "eslint-plugin-promise": "^6.0.0"
+    "eslint-plugin-promise": "^6.0.0",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
   }
 }
