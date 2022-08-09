@@ -253,3 +253,43 @@ console.log(JOIN_N(objects, Puestos, "fk_id_puesto", "id_puesto"));
 //         return val
 //     }
 // })
+
+let pieza=[
+    {
+        id: "",
+        color: "white",
+        x:"",
+        y:""
+    },
+    {
+        id: "",
+        color: "black",
+        x:"",
+        y:""
+    }
+]
+
+let board = {
+
+    A:{
+        1:{
+
+        },
+        2:{
+
+        },
+        3:{
+
+        },
+        4:{
+
+        },
+        5:{
+
+        },
+        6:{
+
+        }
+    },
+    y:"",
+}
