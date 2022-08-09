@@ -270,13 +270,12 @@ let pieza=[
 ]
 
 let board = {
-
     A:{
         1:{
-
+            piece: returnPiece("rook","white")
         },
         2:{
-
+            piece: returnPiece("pawn","white")
         },
         3:{
 
@@ -289,7 +288,23 @@ let board = {
         },
         6:{
 
+        },
+        7:{
+            piece: returnPiece("pawn", "black")
+        },
+        8:{
+            piece: returnPiece("rook","black")
         }
     },
     y:"",
+}
+
+function returnPiece(id, color) {
+    let jsonPiece={
+        id: id,
+        color:  color
+    }
+    
+    //img.src = board.A[1].piece.id +'_'+board.A[1].piece.color+'.png'
+    return jsonPiece;
 }
